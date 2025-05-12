@@ -241,3 +241,125 @@ Nico-Mar42 sur GitHub
 📄 Licence
 
 Ce projet est à but pédagogique, issu du cursus 42. Utilisable et modifiable librement pour l’apprentissage.
+
+
+Now, let's move on to the English version of the README for those who prefer documentation in English.
+
+
+# NC_Libft
+
+**NC_Libft** is an enriched reimplementation of the 42 `libft`, written in C. It includes a variety of utility functions for managing strings, memory, conversions, linked lists, and more.
+
+## 📁 Directory Structure
+
+Functions are organized into categories in the `libft/src` directory:
+- `ft_is/` — Character tests
+- `ft_str/` — String manipulation functions
+- `ft_mem/` — Memory functions
+- `ft_to/` — Conversions
+- `ft_put/` — Display functions
+- `ft_lst/` — Linked list functions
+- `ft_other/` — Miscellaneous (printf, get_next_line...)
+
+---
+
+## 🧠 Function Details
+
+### 🔤 `ft_is/` — Character Tests
+
+- `ft_isalpha`: Checks if a character is an alphabet letter.
+- `ft_isdigit`: Checks if a character is a digit.
+- `ft_isalnum`: Checks if a character is alphanumeric.
+- `ft_isascii`: Checks if a character is in the ASCII table.
+- `ft_isprint`: Checks if a character is printable.
+- `ft_is_in_set`: Checks if a character is present in a set.
+- `ft_iswhitespace`: Checks if a character is a whitespace.
+
+---
+
+### 🧵 `ft_str/` — String Functions
+
+- `ft_split`: Splits a string by a delimiter.
+- `ft_strchr`: Searches for a character in a string.
+- `ft_strdup`: Duplicates a string.
+- `ft_striteri`: Applies a function to each character (with index).
+- `ft_strjoin`: Joins two strings.
+- `ft_strlcat`: Concatenates with limited size.
+- `ft_strlcpy`: Copies with limited size.
+- `ft_strldup`: Duplicates a string with a limited size.
+- `ft_strlen`: Returns the length of a string.
+- `ft_strlen_char`: Length up to a specific character.
+- `ft_strmapi`: Applies a function to each character (returns a new string).
+- `ft_strncmp`: Compares two strings for `n` characters.
+- `ft_strnstr`: Searches for a substring in a string.
+- `ft_strrchr`: Searches for the last occurrence of a character.
+- `ft_strtrim`: Trims unwanted characters from the beginning and end.
+- `ft_substr`: Extracts a substring.
+
+---
+
+### 🧠 `ft_mem/` — Memory Functions
+
+- `ft_bzero`: Zeroes a memory area.
+- `ft_calloc`: Allocates and initializes a memory area.
+- `ft_memchr`: Searches for a byte in a memory area.
+- `ft_memcmp`: Compares two memory areas.
+- `ft_memcpy`: Copies a memory area.
+- `ft_memmove`: Copies memory with overlap handling.
+- `ft_memset`: Fills a memory area.
+- `ft_free_array`: Frees an array of strings.
+
+---
+
+### 🔁 `ft_to/` — Conversion Functions
+
+- `ft_atoi`: Converts a string to an integer.
+- `ft_atol`: Converts a string to a long integer.
+- `ft_itoa`: Converts an integer to a string.
+- `ft_usitoa`: Converts an unsigned integer to a string.
+- `ft_lst_to_strtab`: Converts a list to an array of strings.
+- `ft_toupper`: Converts lowercase to uppercase.
+- `ft_tolower`: Converts uppercase to lowercase.
+
+---
+
+### 🖨️ `ft_put/` — Display Functions
+
+- `ft_putchar`: Displays a character to stdout.
+- `ft_putchar_fd`: Displays a character to a given file descriptor.
+- `ft_putstr`: Displays a string.
+- `ft_putstr_fd`: Displays a string to a given file descriptor.
+- `ft_putendl_fd`: Displays a string followed by a newline.
+- `ft_putnbr_fd`: Displays an integer.
+
+---
+
+### 📦 `ft_lst/` — Linked List Functions
+
+- `ft_lstnew`: Creates a new element.
+- `ft_lstadd_front`: Adds an element to the front.
+- `ft_lstadd_back`: Adds an element to the back.
+- `ft_lstsize`: Returns the size of the list.
+- `ft_lstlast`: Returns the last element.
+- `ft_lstdelone`: Deletes an element.
+- `ft_lstclear`: Deletes the entire list.
+- `ft_lstiter`: Applies a function to each element.
+- `ft_lstmap`: Creates a new list by applying a function.
+
+---
+
+### 🧩 `ft_other/` — Miscellaneous
+
+- `get_next_line`: Reads a line from a file descriptor.
+- `ft_printf`: Formatted output (custom implementation of printf).
+- `ft_printfbis`: Complementary part used by `ft_printf`.
+
+---
+
+## ⚙️ Compilation
+
+```bash
+make        # Compiles the library
+make clean  # Deletes object files
+make fclean # Deletes object files + libft.a
+make re     # Recompiles everything
