@@ -118,7 +118,7 @@ make        # Compile the library
 make clean  # Delete object files
 make fclean # Delete object files + libft.a
 make re     # Recompile everything
-
+```
 ---
 
 Le make génère libft.a, une bibliothèque statique que vous pouvez inclure dans vos projets.
