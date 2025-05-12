@@ -1,9 +1,10 @@
-main.c
-.vscode
-a.out
-*.o
+obj/
 *.a
-README.md
-fonction expliquer
-test.c
-ft_printf copy.c
+*.o
+*.out
+.vscode
+*.code-workspace
+test
+cub3D
+!minilibx-linux/test
+Makefile.gen
